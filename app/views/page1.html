@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+<a href="index.html" class="link-back">Back</a>
+
+      <form>
+  <div class="form-group">
+    <fieldset class="inline">
+
+      <legend>
+        <h1 class="heading-xlarge">
+Is Alex learning code?
+        </h1>
+
+
+      </legend>
+
+      <div class="multiple-choice">
+        <input id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
+        <label for="radio-inline-1">Yes</label>
+      </div>
+      <div class="multiple-choice">
+        <input id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
+        <label for="radio-inline-2">No</label>
+      </div>
+
+      <a class="button button-start" href="page2.html" role="button">Continue</a>
+
+
+    </fieldset>
+  </div>
+</form>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

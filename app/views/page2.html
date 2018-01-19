@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+<a href="page1.html" class="link-back">Back</a>
+
+<h2 class="heading-large">Please tell us more...</h2>
+
+    <div class="form-group">
+      <label class="form-label" for="textarea">
+        Any information you provide will be benifical to our studies, Thankyou.
+      </label>
+      <textarea class="form-control form-control-3-4" name="textarea" id="textarea" rows="5"></textarea>
+    </div>
+
+    <div class="form-group">
+      <div class="panel panel-border-wide">
+        <p>
+         This information will only be used in the case that we have to directly contact the applicant.
+        </p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="full-name-f1">First Name</label>
+      <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="full-name-f1">Last Name</label>
+      <input class="form-control" id="full-name-f1" type="text" name="full-name-f1">
+    </div>
+
+      <a class="button button-start" href="Page3.html" role="button">Send</a>
+
+
+    </fieldset>
+  </div>
+</form>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
